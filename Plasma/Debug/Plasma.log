@@ -1,0 +1,45 @@
+﻿Build started 5/14/2017 9:56:39 AM.
+     1>Project "C:\Users\Josh\Desktop\Plasma Engine\Plasma\Plasma\Plasma.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\Plasma.pdb" /Gd /TP /analyze- /errorReport:prompt PlasmaSprite.cpp PlasmaWindow.cpp
+         PlasmaSprite.cpp
+         Generating Code...
+         Compiling...
+         PlasmaWindow.cpp
+     1>c:\users\josh\desktop\plasma engine\plasma\plasma\plasmawindow.cpp(19): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+         Generating Code...
+     1>c:\users\josh\desktop\plasma engine\plasma\plasma\plasmawindow.cpp(61): warning C4715: 'Plasma::PlasmaWindow::processInput': not all control paths return a value
+     1>c:\users\josh\desktop\plasma engine\plasma\plasma\plasmawindow.cpp(93): warning C4715: 'Plasma::PlasmaWindow::getKeypress': not all control paths return a value
+     1>c:\users\josh\desktop\plasma engine\plasma\plasma\plasmawindow.cpp(106): warning C4715: 'Plasma::PlasmaWindow::getExitButton': not all control paths return a value
+     1>c:\users\josh\desktop\plasma engine\plasma\plasma\plasmawindow.cpp(124): warning C4715: 'Plasma::PlasmaWindow::getMousePos': not all control paths return a value
+     1>c:\users\josh\desktop\plasma engine\plasma\plasma\plasmawindow.cpp(136): warning C4715: 'Plasma::PlasmaWindow::getMouseclick': not all control paths return a value
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\Lib.exe /OUT:"C:\Users\Josh\Desktop\Plasma Engine\Plasma\Debug\Plasma.lib" SDL2.lib SDL2main.lib SDL2test.lib glew32.lib glew32s.lib opengl32.lib /NOLOGO Debug\picoPNG.obj
+         Debug\Plasma.obj
+         Debug\PlasmaCamera.obj
+         Debug\PlasmaImageLoader.obj
+         Debug\PlasmaIO.obj
+         Debug\PlasmaMath.obj
+         Debug\PlasmaResourceManager.obj
+         Debug\PlasmaShader.obj
+         Debug\PlasmaSprite.obj
+         Debug\PlasmaTextureCache.obj
+         Debug\PlasmaWindow.obj
+     1>glew32.lib(glew32.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in SDL2.lib(SDL2.dll); second definition ignored
+     1>glew32.lib(glew32.dll) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>glew32s.lib(glew.obj) : warning LNK4006: _glewGetErrorString@4 already defined in glew32.lib(glew32.dll); second definition ignored
+     1>glew32s.lib(glew.obj) : warning LNK4006: _glewGetExtension@4 already defined in glew32.lib(glew32.dll); second definition ignored
+     1>glew32s.lib(glew.obj) : warning LNK4006: _glewGetString@4 already defined in glew32.lib(glew32.dll); second definition ignored
+     1>glew32s.lib(glew.obj) : warning LNK4006: _glewInit@0 already defined in glew32.lib(glew32.dll); second definition ignored
+     1>glew32s.lib(glew.obj) : warning LNK4006: _glewIsSupported@4 already defined in glew32.lib(glew32.dll); second definition ignored
+     1>glew32s.lib(glew.obj) : warning LNK4006: _wglewGetExtension@4 already defined in glew32.lib(glew32.dll); second definition ignored
+     1>glew32s.lib(glew.obj) : warning LNK4006: _wglewInit@0 already defined in glew32.lib(glew32.dll); second definition ignored
+     1>glew32s.lib(glew.obj) : warning LNK4006: _wglewIsSupported@4 already defined in glew32.lib(glew32.dll); second definition ignored
+     1>opengl32.lib(OPENGL32.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in SDL2.lib(SDL2.dll); second definition ignored
+     1>opengl32.lib(OPENGL32.dll) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+         Plasma.vcxproj -> C:\Users\Josh\Desktop\Plasma Engine\Plasma\Debug\Plasma.lib
+     1>Done Building Project "C:\Users\Josh\Desktop\Plasma Engine\Plasma\Plasma\Plasma.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.52
